@@ -6,10 +6,11 @@ import os
 import time
 from cryptography.fernet import Fernet
 
-# --- Fixed Fernet Key (Paste your generated key here) ---
-KEY = b'dtYuV5Fm88ivRqfrYNADd3z5MuPK3aK5_wZ9-gpi5Yo='# <-- Replace with your own key!
+
+KEY = b'dtYuV5Fm88ivRqfrYNADd3z5MuPK3aK5_wZ9-gpi5Yo='
 cipher = Fernet(KEY)
-# --- Load/Save JSON Data (list structure) ---
+
+
 def load_data():
     if os.path.exists("data.json"):
         with open("data.json", "r") as f:
