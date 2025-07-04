@@ -73,4 +73,8 @@ The following Python modules are imported in this project:
 - `time`: For managing lockout timing after failed attempts.
 - `cryptography.fernet` (Fernet): For encrypting and decrypting the data securely.
 
-These modules together help in creating a secure, interactive, and user-friendly data encryption system. 
+These modules together help in creating a secure, interactive, and user-friendly data encryption system.  
+
+                                                                    
+                                                                    Built with ❤️ by Mak Developer
+Built with ❤️ by Mak Developer
